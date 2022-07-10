@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--툴바-->
+    <div class="container-fluid">
+        <div class="row align-items-center py-3 px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a href="index.html" class="text-decoration-none">
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">F</span>Food Table</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--- 바디 ------->
+
+    <div class="container-fluid">
+        <div class="align-items-center py-3 px-xl-5">
+            <div class="d-none d-lg-block">
+                <form id="info">
+                        <div class="form-group">
+                                <label for="inputEmail" class="col-sm-2 control-label">성명</label>
+                                <div class="col-sm-10">
+                                <input class="form-control" type="text" id="name" name="name" autocomplete="off">
+                                </div>
+                                
+                            
+                                <label for="inputUsername" class="col-sm-2 control-label" style="margin-top: 0.5em;">나이</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="age" name="age" autocomplete="off">
+                                </div>
+                            
+                            
+                                <label for="inputName" class="col-sm-2 control-label" style="margin-top: 0.5em;">키</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="height" name="height" autocomplete="off">
+                                </div>
+                            
+                            
+                                <label for="inputNumber" class="col-sm-2 control-label" style="margin-top: 0.5em;">몸무게</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control"  id="weight" name="weight" autocomplete="off">
+                                </div>
+                            
+                            
+                                <label for="inputAddress" class="col-sm-2 control-label" style="margin-top: 0.5em;">활동지수</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="active" name="active" autocomplete="off" placeholder="앉아서 주로 생활하거나 가벼운 움직임만 하면 1 , 규칙적인 생활로 보통의 활동량이면 2 , 평소 신체 활동량 많은 경우 3">
+                                <button>완료</button>
+                                </div>
+                            </div>   
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid">
+    <div class="align-items-center py-3 px-xl-5">
+        <div class="d-none d-lg-block">
+            <p id="p"></p>
+                <div id="body"></div>
+        </div>
+    </div>
+</div>
+
+
+  
+
+
+<div class="container-fluid bg-secondary text-dark mt-5 pt-5">
+        
+    <div class="row px-xl-5 pt-5">
+        <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+            <a href="index.html" class="text-decoration-none">
+                <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">F</span>Food Table</h1>
+            </a>
+            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>대한민국, 강원도 춘천시</p>
+            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>www.hallym.kr</p>
+            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>010-0000-0000</p>
+        </div>
+    </div>
+
+    <div class="row border-top border-light mx-xl-5 py-4">
+        <div class="col-md-6 px-xl-0">
+            <p class="mb-md-0 text-center text-md-left text-dark">
+                &copy; <a class="text-dark font-weight-semi-bold" href="#">프로젝트</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+    <script src="js/table.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+table{
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: black;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    border: 1px solid #D19C97;
+    text-align: center;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background: #D19C97;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(225, 99, 134, 0.3);
+    transition: 0.3s;
+    margin-top: 1.5em;
+}
+button:focus {
+	outline:0;
+}
+button:hover{
+	background: rgba(235, 191, 192, 0.9);
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(222, 81, 212, 0.6);
+}
+
+.form-horizontal {
+    margin-top: 100px;
+    padding: 20px 20px 0;
+  }
